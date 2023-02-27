@@ -36,7 +36,7 @@
 // aita te string a convert kore then compare kora hy tai same dekhay...kinto jdi property samne pichone kora hy tahole string chng hye jay..tkhn differnt dekhay...tai aita use kra jbe na. 
 
 
-const first={a:5,b:7,c:9};
+const first={a:5,b:7,c:9,d:2};
 const second={a:5,b:7,c:9};
 function compareObject(first,second){
 const firstKeys=Object.keys(first);
@@ -50,6 +50,7 @@ if(firstKeys.length===secondKeys.length){
     return true;
     
 }
+return false;
 }
 const result=compareObject(first,second);
 console.log(result);
