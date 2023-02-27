@@ -1,10 +1,10 @@
 // procedure-1
 //create object using object literals/* aita important krtey hbe****************************** */
 const player={};
-player.name='shovan';/* boject property */
+player.name='shovan';/* object property */
 player.specilality='right-hand-batsman';
 player.bat=function(){ /* object method */
-    console.log('hard hitter');
+    // console.log('hard hitter');
 }
 // console.log(player);
 // player.bat();
@@ -46,7 +46,7 @@ class Elder{
     }
 }
 const oldestMan=new Elder(78);
-// console.log(oldestMan);
+console.log(oldestMan);
 
 // procedure-6
 function Car(model,price){
@@ -54,4 +54,4 @@ function Car(model,price){
     this.price=price;
 }
 const BMW=new Car('kobra',200000300);
-console.log(BMW);
+// console.log(BMW);
